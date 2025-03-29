@@ -47,7 +47,7 @@ export default function RoomSelector({ roomsData }) {
 	return (
 		<>
 			<div className="p-8 bg-slate-50">
-				<div className="max-w-3xl mx-auto">
+				<div className="container">
 					<h1 className="text-3xl font-bold mb-2 text-slate-800">Room Selection</h1>
 					<p className="text-slate-600 mb-6">Browse and select from our available rooms</p>
 				</div>
