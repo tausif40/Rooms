@@ -18,7 +18,7 @@ function RoomCategoryItem({ category, selectedCategories, selectedRooms, toggleC
 	return (
 		<div className="mb-3">
 			<div
-				className={`flex items-center p-3 shadow rounded-md transition-all duration-200"	${isSelected ? "bg-blue-50 border-l-4 border-blue-500" : "hover:bg-slate-50 border-l-4 border-transparent"}	cursor-pointer`}
+				className={`flex items-center p-3 rounded-md transition-all duration-200"	${isSelected ? "bg-blue-50 border-l-4 border-blue-500" : "hover:bg-slate-50 border-l-4 border-transparent"}	cursor-pointer`}
 				onClick={handleItemClick}
 			>
 				{hasSubcategories ? (
